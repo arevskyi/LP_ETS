@@ -1,5 +1,5 @@
 console.log('SCRIPT JS');
-var VERIFYKEY = '326d4536';
+var VERIFYKEY = 'aead19ca';
 
 var notificationHandler = function (data) {
   console.log('notificationHandler', data);
