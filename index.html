@@ -126,19 +126,6 @@
     lpTag.sdes = lpTag.sdes || [];
     lpTag.sdes.push([
       {
-        type: "cart", //MANDATORY
-        total: 24.0, //TOTAL CART VALUE
-        currency: "USD", //CURRENCY CODE
-        numItems: 6, //NUMBER OF ITEMS IN CART
-      },
-      {
-        type: "mrktInfo", //MANDATORY
-        info: {
-          channel: "1", //ORIGINATING CHANNEL ENUM:
-          affiliate: title, //AFFILIATE NAME
-        },
-      },
-      {
         "type": "ctmrinfo",
         "info": {
           "storeNumber": timeZone
